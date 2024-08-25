@@ -84,7 +84,6 @@ const Map: React.FC = () => {
       latlngs[0].forEach((latlng) => {
         templatlngs.push([latlng?.lat, latlng?.lng]);
       });
-      console.log(latlngs, '<<==')
       templatlngs.push(templatlngs[0]);
       setExistingPolygons(predefinedPolygons);
       predefinedPolygons.forEach((polygon) => {
