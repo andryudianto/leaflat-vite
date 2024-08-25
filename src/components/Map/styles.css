@@ -1,0 +1,10 @@
+.leaflet-draw-section {
+    .leaflet-draw-toolbar {
+        .leaflet-draw-edit-remove{
+            display: none;
+        }
+        .leaflet-draw-edit-edit  {
+            display: none;
+        }
+    }
+}
